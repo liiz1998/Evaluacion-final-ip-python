@@ -58,7 +58,20 @@ Luego abrir el navegador y acceder a:
 http://localhost:8000/index.html
 ```
 
-## 🗒 Notas
-- El ejercicio de Machine Learning y Deep Learning incluye una explicación adicional en el archivo `explicacion.md`.  
-- La planificación del ejercicio Scrum se encuentra documentada en `scrum.md`.  
-- Los archivos generados automáticamente (como `usuarios_limpios.csv` o la base de datos `db.sqlite3`) **no se deben subir al repositorio**; se pueden regenerar al ejecutar los scripts.
+🗒 Notas
+
+El ejercicio de Machine Learning y Deep Learning incluye una explicación adicional en el archivo `explicacion.md`.  
+
+La planificación del ejercicio Scrum se encuentra documentada en `scrum.md`.  
+
+Los archivos generados automáticamente, como `usuarios_limpios.csv` o la base de datos `db.sqlite3`, no se deben subir al repositorio; se pueden regenerar al ejecutar los scripts.
+
+El procesador de datos (`procesador.py`) valida emails y genera `usuarios_limpios.csv`.
+
+La mini app Django (`app_notas`) incluye CRUD de notas con SQLite y templates HTML.
+
+El script de Machine Learning (`ml_simple.py`) usa Random Forest sobre el dataset Iris.
+
+El script de Deep Learning (`dl_simple.py`) implementa una red neuronal simple para clasificación binaria.
+
+La planificación Scrum se encuentra en `scrum.md`.

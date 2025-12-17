@@ -1,2 +1,24 @@
+# Entorno virtual
 venv/
+env/
+__pycache__/
+*.pyc
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos generados por scripts
 src/usuarios_limpios.csv
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
